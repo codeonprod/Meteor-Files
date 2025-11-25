@@ -645,7 +645,7 @@
         Isomorphic
       </td>
       <td>
-        Turn on/of debugging and extra logging to console, or pass your own function to handle debug messages on your own
+        Turn on/off debugging and extra logging to console, or pass your own function to handle debug messages on your own
       </td>
       <td>
         <code>false</code>
