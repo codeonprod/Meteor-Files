@@ -78,8 +78,8 @@ Meteor-Files library features and highlights
   - `removeAsync()` - {*Promise<number>*} - Removes all documents that match a query, resolves to a number of removed records
   - `forEachAsync(callback, context)` - {*undefined*} - Call `callback` once for each matching document
   - `eachAsync()` - {*Promise<FileCursor[]>*} - Resolves to Array of `FileCursor` made for each document on current Cursor
-  - `observeAsync(callbacks)` - {*Promise<object>*} - Functions to call to deliver the result set as it changes
-  - `observeChangesAsync(callbacks)` - {*Promise<object>*} - Watch a query. Receive callbacks as the result set changes
+  - `observeAsync(callbacks)` - {*Promise< object >*} - Functions to call to deliver the result set as it changes
+  - `observeChangesAsync(callbacks)` - {*Promise< object >*} - Watch a query. Receive callbacks as the result set changes
   - [__See all *FilesCursor* methods__](https://github.com/veliovgroup/Meteor-Files/blob/master/docs/FilesCursor.md)
 - [Default Collection Schema](https://github.com/veliovgroup/Meteor-Files/blob/master/docs/schema.md#schema)
   - [Extend Schema](https://github.com/veliovgroup/Meteor-Files/blob/master/docs/schema.md#extend-default-schema)
